@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home to Numbers</title>
+
+<!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--Jquery-->
+    <script src ="https://code.jquery.com/jquery-latest.min.js"></script>
+<!--Google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700" rel="stylesheet">
+
+    <link rel='shortcut icon' href='../assets/favicon.png' type='image/x-icon'/ >
+    <link rel = "stylesheet" href= "../css/mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+  </head>
+    
+  <body>
+    <nav class="nav-down">
+        <a href="index.html" class="logo">
+            <img class="logo-img" src="../assets/Logo.png" alt="Logo">
+        </a>
+        <ul>
+            <li class="dropdown"><a class='menu dropdown-toggle' data-toggle="dropdown" href="#">Portfolio<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="../projects/peanot.html">-1-&nbsp PEANOT</a></li>
+                    <li><a href="../projects/silkcircle.html">-2-&nbsp Silk Circle</a></li>
+                    <li><a href="../projects/htn.html">-3-&nbsp Home to numbers</a></li>
+                    <li><a href="../projects/kreamer.html">-4-&nbsp KREAMER</a></li><br>
+                    <!-- <li><a target="_blank" href="https://pathways-162314.appspot.com/">-5-&nbsp Pathways&nbsp ></a></li> -->
+                    <li><a href="projects/others.html">-5-&nbsp Other Works and Experience</a></li>
+                </ul>
+            </li>
+            <li><a class='menu' href="../projects/about-me.html">About Me</a></li>
+            <li><a class='menu' href="../projects/Hummam_resume_2023.pdf" target="_blank">Resume</a></li>
+        </ul>
+    </nav>    
+      
+    <div class="sidebar project-sidebar">
+        <div class="project-sum hidden">
+            <h5>Home to Numbers</h5>
+          <div id="tags">
+          </div>
+<!--
+            <h4>Research, UI/UX, Visual Design</h4>
+            <a class='details back-home hidden' href="../index.html">< &nbspBack to Home</a>
+-->
+        </div>
+        
+    </div>
+    
+
+    <div id="works">
+        <div class='project project-details'>
+            <div class="space30px"></div>
+            <div class="space15px"></div>
+            <h3 class="project-number">- 3 -</h3>
+            <h1>Home to Numbers</h1>
+            <h4>September 2022 (4 weeks)<br>
+                Class Project for <i>Networks and Navigation</i>
+            </h4>
+                
+            <div class="space5px"></div>
+            <span class="label">Front-End Dev</span>
+            <span class="label">JS Libraries</span>
+            <span class="label">Data Visualization</span>
+            <span class="label">Purpose-Driven  </span>
+            <div class="space15px"></div><br>
+            
+            <h3 id='s1' class='section'>INTRO</h3>
+            <p>The number of refugees leaving their homes is often viewed as just a statistic, but in reality, each individual and family is leaving behind their entire lives to go into the unknown. As a volunteer in my community, helping Syrian refugees in Canada, I realized the importance of understanding the personal stories behind these numbers. <br><br> Visualizing the scale of the issue can help people grasp the depth of the problem and inspire them to get involved. My role is to <b>use research to explore data sets, learn about psychological numbness toward mass disasters, and translate it into an interactive data visualised web app. </b></p>
+            <br>
+            
+            <h2>Final Product Overview</h2>
+            <h3>  github repo</h3>
+            
+            <div class="project-img-div-long">
+                <img class="project-img-long" src="../assets/htn/img.png" alt="sitemap">
+            </div>
+
+                    <div class="project-img-div-long">
+                        <img class="project-img-long" src="../assets/htn/main.gif" alt="sitemap">
+                    </div>
+
+                
+            
+            
+            <div class="space15px"></div><br>
+            <h3 id='s2' class='section'>Mapping and Data Visualization</h3> 
+            <h2>How and where can I vizualise refugees data and why </h2>
+                <p>Choosing a base map was an important decision and I ultimately decided on "DarkGray" by FleatLet due to its aesthetics and ability to be easily implemented on the web with responsive design. To animate the lines and show movement and connect the dots of the dataset, I used Tween.JS, along with the basic JQuery library. I also utilized some basic HTML and CSS to build the framework of the project. While I considered using React, I found that it was simpler to use HTML and CSS when working with multiple JavaScript libraries.
+                </p>
+                <div class="project-img-div-med">
+                        <img class="project-img-med" src="../assets/htn/leaflet.png" alt="leaflet">
+                </div>
+                <h4>Leaflet is the leading open-source JavaScript library for mobile-friendly interactive maps. Weighing just about 42 KB of JS, it has all the mapping features most developers ever need.</h4>
+
+        
+            <div class="space15px"></div>
+            <h3 id='s3' class='section'>Fetching Data</h3>
+            <h2>UNHCR offers custom-query data engine on all refugee data from the past 20 years</h2>
+            <p><b>I customized the data sets through the UNHCR website,</b> which was the only reliable source of data I could use. They offered a query called One-to-many, which provided information on countries and all the refugees that left from them and where they all went to by cities. To envision how the project would look, I used Figma to create wireframes and mockups. We used <b>directed storytelling</b> to elicit their stories, emotions, thoughts, actions, and pain points. <br><br>
+            
+                After finding the requested data I chose a I was able to get
+                    a query that is called<b>One-to-many</b>. So it is the countries and all the refugees that left from it, and where they all went to, by cities. 
+            </p>
+                <div class="project-img-div-long">
+                        <img class="project-img-long" src="../assets/htn/data2.png" alt="Post-it notes map">
+                </div>
+                <h4>Example of a stories JSON query</h4>
+                <br><br>
+                <div class="project-img-div-long">
+                        <img class="project-img-long" src="../assets/htn/data1.png" alt="Current Journey Map">
+                </div>
+                <h4>Example of a One-to-many JSON query</h4>
+            <p>Though, it is important to notice that so many refugees are undocumented and paperless and that the UNHCR only offers data of refugges that were documented </p>
+                
+
+        
+            <div class="space15px"></div>
+            <h3 id='s4' class='section'>Interactive Storytelling
+            </h3>
+            <h2>Giving Refugees a platfrom</h2>
+                <p>I wanted refugees to be able to post their stories in the most accessible way possible. To achieve this, I created a Google spreadsheet where they could write their stories and prepared HTML ids so they could upload images, videos, and links, along with the longitude and latitude of their host country.
+                    <br><br>
+                    When users wrote on the Google spreadsheet, it updated automatically on the website using Google's API. I also used the UNHCR website as a reliable source of data and stories of refugees.<b> How can we transform course registration into a learning experience?</p>
+                    
+                    <div class="project-img-div-med">
+                        <img class="project-img-med" src="../assets/htn/img3.png" alt="Reframe">
+                    </div>
+                <br>
+            <h2>The solution encourages informed decision making and relationship building</h2>
+                <p>Other than logistical issues,  students are not sure what classes they want to take, can't find quality information, and don't have someone to talk to directly about classes. The three-sentence course descriptions on the registration website and catalog are not enough to make an informed decision. <br><br>
+                
+                Our solution encourages students to make the best out of their CMU education in two ways:<br>
+                <br><b>&nbsp &nbsp &nbsp 1. Defining their learning goals</b>
+                <br><b>&nbsp &nbsp &nbsp 2. Mobilizing the alumni network</b><br><br>
+
+                I designed the UI of our solution: Home to Numbers.
+            </p>
+                    
+                    <div class="project-img-div-long">
+                        <img class="project-img-long" src="../assets/Course/tags.png" alt="Tags">
+                    </div>
+                    <div class="project-img-div-long">
+                        <img class="project-img-long" src="../assets/Course/network.png" alt="Networking">
+                    </div>
+                    <div class="project-img-div-long">
+                        <img class="project-img-long" src="../assets/Course/filter.png" alt="Networking">
+                    </div>
+
+        
+            <div class="space15px"></div>
+            <h3 id='s5' class='section'>THE PREFERRED FUTURE</h3>
+                <p>In the preferred future with Home to Numbers, students make better course selection decisions and feel more confident in their decisions. Their anxiety is alleviated and they are able to build valuable connections with alumni through talking about courses. </p>
+                <br>
+            
+                <div class="project-img-div-med">
+                        <img class="project-img-med" src="../assets/Course/end.png" alt="happy student">
+                </div>
+        
+            <div class="space15px"></div>
+            <h3 id='s6' class='section'>REFLECTIONS</h3>
+            <p><b>The most pivotal point of this project was when we reframed the question.</b> We could have easily gone onto an easier route, by doing things like improving the registration process or implementing a time tracking tool. However, all these quick solutions will not have a significant impact on the students' learning experience. The process might be smoother, but the final outcome will be not much different than the current state. </p>
+        
+            <div class="jump">
+                <a class='details previous' href="replay.html" data-toggle="tooltip" title="-2- Replay">< &nbspPrevious Project</a>
+                <a class='details next' href="crowdverify.html" data-toggle="tooltip" title="-4- CrowdVerify">Next Project&nbsp ></a>
+            </div>
+            
+        </div>
+        
+<!--        <div id='bottom-space'></div>-->
+        <footer>© designed and coded by Humam Hawara</footer>
+    </div>
+ 
+
+    
+<!--JS-->
+    <script src ="../js/myscript.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--Google Analytics-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-91244637-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>  
+
+  </body>
+</html>
+  
