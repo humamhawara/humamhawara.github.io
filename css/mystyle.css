@@ -1278,3 +1278,51 @@ p.sentence1 {
 
 
 
+
+/* Simple Intro Section */
+.simple-intro {
+    text-align: center;
+    padding: 60px 20px 40px 20px;
+    margin-bottom: 40px;
+}
+
+.simple-intro h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.simple-intro p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsive Simple Intro */
+@media (max-width: 768px) {
+    .simple-intro {
+        padding: 40px 15px 30px 15px;
+    }
+    
+    .simple-intro h1 {
+        font-size: 2rem;
+    }
+    
+    .simple-intro p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .simple-intro h1 {
+        font-size: 1.8rem;
+    }
+    
+    .simple-intro p {
+        font-size: 1rem;
+    }
+}
+
+
+
